@@ -1,0 +1,1306 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta property="og:image" content="https://tvsmultiversais.herokuapp.com/images/1646360783025.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./images/icon.png" type="image/x-icon" />
+  <title>Tvs Multiversais</title>
+
+  <!--
+    - link de css
+  -->
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/media_query.css">
+
+  <!-- google font link -->
+  <link href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900" rel="stylesheet" />
+</head>
+
+<body>
+  
+ 
+<!-- toda o site -->
+
+
+  <div class="container">
+
+<!-- header -->
+
+    <header class="">
+      <div class="navbar">
+
+<!-- Butão menu -->
+        <button class="navbar-menu-btn">
+          <span class="one"></span>
+          <span class="two"></span>
+          <span class="three"></span>
+        </button>
+
+
+        <a href="#" class="navbar-brand">
+          <img src="./images/1646360783025.png" alt="">
+        </a>
+
+ <!-- menu de navegação -->
+
+        <nav class="">
+          <ul class="navbar-nav">
+            
+            <li> <a href="#p" class="navbar-link">Principal</a> </li>
+            <li> <a href="#category" class="navbar-link">Categorias</a> </li>
+            <li> <a href="#live" class="navbar-link  indicator">Canais ao vivo!</a> </li>
+
+          </ul>
+        </nav>
+
+ <!-- pesquisa -->
+
+        <div class="navbar-actions">
+
+       <form  class="navbar-form">
+            <!-- <input type="hidden" name="accessKey" value="fcc06726-261e-46d2-900e-e69e9e6ab638">-->
+ 
+ <!--<input type="hidden" name="redirectTo" value="https://tvsmultiversais.herokuapp.com/Afonso">-->
+ 
+            <input type="text" name="search" placeholder="o quê vc deseja?..." class="navbar-form-search">
+
+            <button class="navbar-form-btn" id="mensagem-sucesso" >
+              <ion-icon name="search-outline"></ion-icon>
+            </button>
+
+            <button class="navbar-form-close" id="mensagem-erro">
+              <ion-icon name="close-circle-outline"></ion-icon>
+            </button>
+          </form>
+
+
+ <!-- botão de sair -->
+
+          <button class="navbar-search-btn">
+            <ion-icon name="search-outline"></ion-icon>
+          </button>
+
+          <a href="https://tvsmultiversais3.herokuapp.com" class="navbar-signin">
+            <span>Sair</span>
+           <img src="https://img.icons8.com/material-outlined/24/ffffff/exit.png"/>
+            <img style="width: 50px; height: 50px;  border-radius: 100%"  src="./images/giphy.webp">
+          </a>
+
+        </div>
+
+      </div>
+    </header>
+
+
+
+<!-- corpo -->
+
+   
+    <main>
+
+<!-- sessão dos filmes -->
+
+      <section class="movies">
+
+<!-- filtros -->
+
+        <div class="filter-bar">
+
+
+          <div class="filter-radios">
+
+            <input type="radio" name="grade" id="featured" checked>
+            <label for="featured">Lançamentos</label>
+
+            <input type="radio" name="grade" id="popular">
+            <label for="popular">Ficção</label>
+
+            <input type="radio" name="grade" id="newest">
+            <label for="newest">Séries</label>
+
+            <div class="checked-radio-bg"></div>
+
+          </div>
+
+        </div>
+
+<!-- Parte dos Filmes -->
+
+        <div class="movies-grid" id="p">
+
+          <div class="movie-card">
+
+            <div class="card-head">
+              <img src="https://araras.sp.gov.br/emhaba/sgi2/images/Agurade01.gif" alt="" class="card-img">
+
+              <div class="card-overlay">
+
+                <div class="bookmark">
+                  <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
+
+                <div class="rating">
+               <ion-icon name="star-outline"></ion-icon>
+                  <span>9.4</span>
+                </div>
+
+                <div class="play">
+                  <a href="#"><img src="https://img.icons8.com/material-outlined/48/000000/circled-play.png"/></a>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="card-body">
+              <h3 class="card-title">Diários de um Vampiro</h3>
+
+              <div class="card-info">
+                <span class="genre">8 Temporadas</span>
+                <span class="year">2009</span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="movie-card">
+
+            <div class="card-head">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeoFKAlVEDJr4gWmlGzlK7k_fHAZ6J5riMiudyPt_rTk9YTpuO" alt="" class="card-img">
+
+              <div class="card-overlay">
+
+                <div class="bookmark">
+                  <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
+
+                <div class="rating">
+               <ion-icon name="star-outline"></ion-icon>
+                  <span>9.4</span>
+                </div>
+
+                <div class="play">
+                  <a href="http::80/movie/54983186415/gzAK4/111301.mp4"><img src="https://img.icons8.com/material-outlined/48/000000/circled-play.png"/></a>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="card-body">
+              <h3 class="card-title">Homem-Aranha: Sem Volta para Casa</h3>
+
+              <div class="card-info">
+                <span class="genre">Ação/Aventura</span>
+                <span class="year">2021</span>
+              </div>
+            </div>
+
+          </div>
+
+
+          <div class="movie-card">
+
+            <div class="card-head">
+              <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTFCumqCVMfau0D5190VoNjQnaibQoc-ksyHQhYA5uiboLYCglm" alt="" class="card-img">
+
+              <div class="card-overlay">
+
+                <div class="bookmark">
+                  <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
+
+                <div class="rating">
+               <ion-icon name="star-outline"></ion-icon>
+                  <span>9.4</span>
+                </div>
+
+                <div class="play">
+                  <a href="#"><img src="https://img.icons8.com/material-outlined/48/000000/circled-play.png"/></a>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="card-body">
+              <h3 class="card-title">Loki</h3>
+
+              <div class="card-info">
+                <span class="genre">1 Temporada</span>
+                <span class="year">2021</span>
+              </div>
+            </div>
+
+          </div>
+          
+           <div class="movie-card">
+
+            <div class="card-head">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZY1qJHFbHAPJua1NNvLt8xZ8dHg8-Wr2VZW1nmNEjySdn8HjPnLhY6MI&s=10" alt="" class="card-img">
+
+              <div class="card-overlay">
+
+                <div class="bookmark">
+                  <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
+
+                <div class="rating">
+               <ion-icon name="star-outline"></ion-icon>
+                  <span>7.5</span>
+                </div>
+
+                <div class="play">
+                  <a href="https://tvsmultiversais.herokuapp.com/EuphoriaA"><img src="https://img.icons8.com/material-outlined/48/000000/circled-play.png"/></a>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="card-body">
+              <h3 class="card-title">Euphoria</h3>
+
+              <div class="card-info">
+                <span class="genre">2 Temporada</span>
+                <span class="year">2019</span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="movie-card">
+
+            <div class="card-head">
+              <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT16bLHwX5FuHk_xhtGc2wyNJysoNHH6rwoZt8IUgF2hoRGBcj3" alt="" class="card-img">
+
+              <div class="card-overlay">
+
+                <div class="bookmark">
+                  <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
+
+                <div class="rating">
+               <ion-icon name="star-outline"></ion-icon>
+                  <span>7.5</span>
+                </div>
+
+                <div class="play">
+                  <a href="http://movie/54983186415/gzAK4/110346.mp4"><img src="https://img.icons8.com/material-outlined/48/000000/circled-play.png"/></a>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="card-body">
+              <h3 class="card-title">Sing 2</h3>
+
+              <div class="card-info">
+                <span class="genre">Infantil/Aventura</span>
+                <span class="year">2021</span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="movie-card">
+
+            <div class="card-head">
+              <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcResb8mk2AITax-XJTT8KVQeuoPnnOVanl4SZ_s0sVYvzTqVeff" alt="" class="card-img">
+
+              <div class="card-overlay">
+
+                <div class="bookmark">
+                  <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
+
+                <div class="rating">
+               <ion-icon name="star-outline"></ion-icon>
+                  <span>8.7</span>
+                </div>
+
+                <div class="play">
+                  <a href="http://e/54983186415/gzAK4/113818.mp4"><img src="https://img.icons8.com/material-outlined/48/000000/circled-play.png"/></a>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="card-body">
+              <h3 class="card-title">Moonfall - Ameaça Lunar</h3>
+
+              <div class="card-info">
+                <span class="genre">Ficção científica/Aventura</span>
+                <span class="year">2022</span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="movie-card">
+
+            <div class="card-head">
+              <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS1nI_Z3FYp-mE3L83VBWb60wJpbzFcK2we7_ZeV0W0yLgjE-x3" alt="" class="card-img">
+
+              <div class="card-overlay">
+
+                <div class="bookmark">
+                  <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
+
+                <div class="rating">
+               <ion-icon name="star-outline"></ion-icon>
+                  <span>8.2</span>
+                </div>
+
+                <div class="play">
+                  <a href="http://e/54983186415/gzAK4/90381.mp4"><img src="https://img.icons8.com/material-outlined/48/000000/circled-play.png"/></a>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="card-body">
+              <h3 class="card-title">Velozes e Furiosos 9</h3>
+
+              <div class="card-info">
+                <span class="genre">Ação/Aventura</span>
+                <span class="year">2021</span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="movie-card">
+
+            <div class="card-head">
+              <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS4neC_Y4U1G6u2QlEFqbCizheGBUnZg1w874qWbIcVlv9tPuSu" alt="" class="card-img">
+
+              <div class="card-overlay">
+
+                <div class="bookmark">
+                  <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
+
+                <div class="rating">
+               <ion-icon name="star-outline"></ion-icon>
+                  <span>9.1</span>
+                </div>
+
+                <div class="play">
+                  <a href="htt83186415/gzAK4/3601.mp4"><img src="https://img.icons8.com/material-outlined/48/000000/circled-play.png"/></a>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="card-body">
+              <h3 class="card-title">Vingadores: Guerra Infinita</h3>
+
+              <div class="card-info">
+                <span class="genre">Ação/Aventura</span>
+                <span class="year">2018</span>
+              </div>
+            </div>
+
+          </div>
+          
+          <div class="movie-card">
+
+            <div class="card-head">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMwtU95JygcmCq4e3XPpL9W0ATjGFoQCQm16dbpIp7BM36B7lH" alt="" class="card-img">
+
+              <div class="card-overlay">
+
+                <div class="bookmark">
+                  <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
+
+                <div class="rating">
+               <ion-icon name="star-outline"></ion-icon>
+                  <span>9.4</span>
+                </div>
+
+                <div class="play">
+                  <a href="httpe/54983186415/gzAK4/63385.mp4"><img src="https://img.icons8.com/material-outlined/48/000000/circled-play.png"/></a>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="card-body">
+              <h3 class="card-title">Vingadores: Ultimato</h3>
+
+              <div class="card-info">
+                <span class="genre">Ação/Ficção</span>
+                <span class="year">2019</span>
+              </div>
+            </div>
+
+          </div>
+          
+          <div class="movie-card">
+
+            <div class="card-head">
+              <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQwplk2pMYF7C4ndsrhdWbDcVy66UqV3nC9gPkFPjuVCJFFlIcK" alt="" class="card-img">
+
+              <div class="card-overlay">
+
+                <div class="bookmark">
+                  <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
+
+                <div class="rating">
+               <ion-icon name="star-outline"></ion-icon>
+                  <span>9.4</span>
+                </div>
+
+                <div class="play">
+                  <a href="https://tvsmultiversais.herokuapp.com/morty"><img src="https://img.icons8.com/material-outlined/48/000000/circled-play.png"/></a>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="card-body">
+              <h3 class="card-title">Rick Morty</h3>
+
+              <div class="card-info">
+                <span class="genre">5 Temporadas</span>
+                <span class="year">2013</span>
+              </div>
+            </div>
+
+          </div>
+          
+               
+          
+          
+          
+
+        </div>
+
+<!-- botão -->
+
+        <button class="load-more">Carregar mais</button>
+
+      </section>
+
+
+<!-- Categorias -->
+
+
+      <section class="category" id="category">
+
+        <h2 class="section-heading">Categorias</h2>
+
+        <div class="category-grid">
+          
+        <a href="https://tvsmultiversais.herokuapp.com/HBOMAXA"><div class="category-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1XJs1UgKDVRmT0QCgjcEezsN9LhmJcKHvlw&usqp=CAU" alt="" class="card-img">
+            <div class="name">TvM|HBO Max</div>
+            <div class="total">6</div>
+          </div></a>
+          
+                    
+         <a href="https://tvsmultiversais.herokuapp.com/HBOA"><div class="category-card">
+            <img src="https://www.bleepstatic.com/content/posts/2017/08/10/HBO.png" alt="" class="card-img">
+            <div class="name">TvM|HBO Canais</div>
+            <div class="total">8</div>
+          </div></a>
+          
+        <a href="https://tvsmultiversais.herokuapp.com/SPORTTVA"><div class="category-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTub6Yy_yms9KghzEkhL89yAJWJhml7tEEezdKcwI9JlCFxLTC09RknrouO&s=10" alt="" class="card-img">
+            <div class="name">TvM|Sport Tv</div>
+            <div class="total">3</div>
+          </div></a>
+          
+          <a href="https://tvsmultiversais.herokuapp.com/BBBA"><div class="category-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg4iHd0souXInjnBx9DJQxh8cPtUkRVpMIPQ&usqp=CAU" alt="" class="card-img">
+            <div class="name">TvM|BBB ao vivo!</div>
+            <div class="total">10</div>
+          </div>
+
+          <a href="https://tvsmultiversais.herokuapp.com/documentarios"><div class="category-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0Ag33jf48KWmH7xGvJLT6rYW3tb3SmoO9vg&usqp=CAU" alt="" class="card-img">
+            <div class="name">TvM|Documentários</div>
+            <div class="total">68</div>
+          </div></a>
+          
+          
+          <a href="https://tvsmultiversais.herokuapp.com/cinema"><div class="category-card">
+            <img src="https://images.pexels.com/photos/3945321/pexels-photo-3945321.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="" class="card-img">
+            <div class="name">TvM|Filmes Cinema</div>
+            <div class="total">41</div>
+          </div></a>
+
+
+          <a href="https://tvsmultiversais.herokuapp.com/Ficcaofantasia"><div class="category-card">
+            <img src="https://images.pexels.com/photos/3526022/pexels-photo-3526022.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="" class="card-img">
+            <div class="name">TvM|Filmes Ficção</div>
+            <div class="total">373</div>
+          </div></a>
+
+          <a href="https://tvsmultiversais.herokuapp.com/filmelancamento"><div class="category-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjsvi2iyknQlX24wElLxHop8OrhjH1_ITxcg&usqp=CAU" alt="" class="card-img">
+            <div class="name">TvM|Filmes Lançamentos</div>
+            <div class="total">1218</div>
+          </div></a>
+
+
+         <a href="https://tvsmultiversais.herokuapp.com/TELECINEA"><div class="category-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAhZJUbNoEGN3ls3Cc_gOzEk06V0Yc7suqiA&usqp=CAU" alt="" class="card-img">
+            <div class="name">TvM|Telecine</div>
+            <div class="total">24</div>
+          </div></a>
+
+
+        </div>
+
+      </section>
+
+
+<!-- Parte de canais ao vivo! -->
+
+
+      <section class="live" id="live">
+
+        <h2 class="section-heading">Canais ao vivo!</h2>
+
+        <div class="live-grid">
+
+         <div class="live-card">
+
+            <div class="card-head">
+              <img src="./IMG_11022022_213538_(1024_x_698_pixel).jpg" alt="" class="card-img">
+              <div class="live-badge">LIVE</div>
+              <div class="total-viewers">305K visualizações</div>
+              <div class="play">
+               <a href="htt80/live/7788689/2726/164.m3u8"> <img src="https://img.icons8.com/material-outlined/48/000000/circled-play.png"/></a>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <img src="./IMG_11022022_213629_(900_x_900_pixel).jpg" alt="" class="avatar">
+              <h3 class="card-title">Animal Planet <br> Documentários FHD</h3>
+            </div>
+
+          </div>
+
+          <div class="live-card">
+
+            <div class="card-head">
+              <img src="./IMG_11022022_214501_(1024_x_698_pixel).jpg" alt="" class="card-img">
+              <div class="live-badge">LIVE</div>
+              <div class="total-viewers">1.7M visualizações</div>
+              <div class="play">
+                <a href="http:///live/7788689/2726/295.m3u8"><img src="https://img.icons8.com/material-outlined/48/000000/circled-play.png"/></a>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <img src="./IMG_11022022_214511_(900_x_900_pixel).jpg" alt="" class="avatar">
+              <h3 class="card-title">AXN <br> FHD </h3>
+            </div>
+
+          </div>
+
+<div class="live-card">
+
+            <div class="card-head">
+              <img src="./IMG_11022022_215933_(1024_x_698_pixel).jpg" alt="" class="card-img">
+              <div class="live-badge">LIVE</div>
+              <div class="total-viewers">1.7M visualizações</div>
+              <div class="play">
+                <a href="http:///live/7788689/2726/113584.m3u8"><img src="https://img.icons8.com/material-outlined/48/000000/circled-play.png"/></a>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <img src="./IMG_11022022_215851_(900_x_900_pixel).jpg" alt="" class="avatar">
+              <h3 class="card-title">Band SP<br>FHD</h3>
+            </div>
+
+          </div>
+
+          <div class="live-card">
+
+            <div class="card-head">
+              <img src="./IMG_11022022_220012_(1024_x_698_pixel).jpg" alt="" class="card-img">
+              <div class="live-badge">LIVE</div>
+              <div class="total-viewers">468K visualizações</div>
+              <div class="play">
+                <a href="http://pfsv.io:80/live/7788689/2726/126.m3u8"><img src="https://img.icons8.com/material-outlined/48/000000/circled-play.png"/></a>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <img src="./IMG_11022022_220046_(900_x_900_pixel).png" alt="" class="avatar">
+              <h3 class="card-title">Cartoon Network<br> FHD</h3>
+            </div>
+
+          </div>
+          
+          
+  <div class="live-card">
+
+            <div class="card-head">
+              <img src="./IMG_11022022_220340_(1024_x_698_pixel).png" alt="" class="card-img">
+              <div class="live-badge">LIVE</div>
+              <div class="total-viewers">1.7M visualizações</div>
+              <div class="play">
+                <a href="http://pfsv.io:80/live/7788689/2726/513.m3u8"><img src="https://img.icons8.com/material-outlined/48/000000/circled-play.png"/></a>
+              </div>
+              
+            </div>
+
+            <div class="card-body">
+              <img src="./IMG_11022022_220256_(900_x_900_pixel).png" alt="" class="avatar">
+              <h3 class="card-title">CNN Brasil <br> FHD</h3>
+            </div>
+
+          </div>
+
+
+  <div class="live-card">
+
+            <div class="card-head">
+              <img src="./IMG_11022022_223319_(1024_x_698_pixel).png" alt="" class="card-img">
+              <div class="live-badge">LIVE</div>
+              <div class="total-viewers">1.7M visualizações</div>
+              <div class="play">
+               <a href="http://pfsv.io:80/live/7788689/2726/249.m3u8"> <img src="https://img.icons8.com/material-outlined/48/000000/circled-play.png"/></a>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <img src="./IMG_11022022_223332_(900_x_900_pixel).jpg" alt="" class="avatar">
+              <h3 class="card-title">Combate<br> FHD</h3>
+            </div>
+
+          </div>
+
+
+  <div class="live-card">
+
+            <div class="card-head">
+              <img src="./IMG_11022022_223533_(1060_x_698_pixel).png" alt="" class="card-img">
+              <div class="live-badge">LIVE</div>
+              <div class="total-viewers">1.7M visualizações</div>
+              <div class="play">
+               <a href="http://pfsv.io:80/live/7788689/2726/97.m3u8"><img src="https://img.icons8.com/material-outlined/48/000000/circled-play.png"/></a>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <img src="./IMG_11022022_223504_(900_x_900_pixel).png" alt="" class="avatar">
+              <h3 class="card-title">Comedy Central<br> FHD</h3>
+            </div>
+
+          </div>
+
+
+  <div class="live-card">
+
+            <div class="card-head">
+              <img src="./IMG_11022022_223907_(1024_x_698_pixel).jpg" alt="" class="card-img">
+              <div class="live-badge">LIVE</div>
+              <div class="total-viewers">1.7M visualizações</div>
+              <div class="play">
+                <a href="http://pfsv.io:80/live/7788689/2726/166.m3u8"><img src="https://img.icons8.com/material-outlined/48/000000/circled-play.png"/></a>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <img src="./IMG_11022022_223917_(900_x_900_pixel).jpg" alt="" class="avatar">
+              <h3 class="card-title">Discovery Channel<br> FHD</h3>
+            </div>
+
+          </div>
+
+  <div class="live-card">
+
+            <div class="card-head">
+              <img src="./IMG_11022022_224953_(1024_x_698_pixel).png" alt="" class="card-img">
+              <div class="live-badge">LIVE</div>
+              <div class="total-viewers">1.7M visualizações</div>
+              <div class="play">
+               <a href="http://pfsv.io:80/live/7788689/2726/168.m3u8"> <img src="https://img.icons8.com/material-outlined/48/000000/circled-play.png"/></a>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <img src="./IMG_11022022_224937_(900_x_900_pixel).png" alt="" class="avatar">
+              <h3 class="card-title">Discovery Home&Health<br> FHD</h3>
+            </div>
+
+          </div>
+
+
+
+
+  <div class="live-card">
+
+            <div class="card-head">
+              <img src="./IMG_12022022_110413_(1024_x_698_pixel).png" alt="" class="card-img">
+              <div class="live-badge">LIVE</div>
+              <div class="total-viewers">1.7M visualizações</div>
+              <div class="play">
+                <a href="http://pfsv.io:80/live/7788689/2726/171.m3u8"><img src="https://img.icons8.com/material-outlined/48/000000/circled-play.png"/></a>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <img src="./IMG_12022022_110634_(900_x_900_pixel).png" alt="" class="avatar">
+              <h3 class="card-title">Discovery Turbo<br> FHD</h3>
+            </div>
+
+          </div>
+
+
+  <div class="live-card">
+
+            <div class="card-head">
+              <img src="./IMG_12022022_121053_(1024_x_698_pixel).jpg" alt="" class="card-img">
+              <div class="live-badge">LIVE</div>
+              <div class="total-viewers">1.7M visualizações</div>
+              <div class="play">
+             <a href="http://pfsv.io:80/live/7788689/2726/250.m3u8"><img src="https://img.icons8.com/material-outlined/48/000000/circled-play.png"/></a>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <img src="./IMG_12022022_121039_(900_x_900_pixel).png" alt="" class="avatar">
+              <h3 class="card-title">ESPN<br> FHD</h3>
+            </div>
+
+          </div>
+
+
+
+  <div class="live-card">
+
+            <div class="card-head">
+              <img src="./IMG_12022022_173243_(1500_x_700_pixel).png" alt="" class="card-img">
+              <div class="live-badge">LIVE</div>
+              <div class="total-viewers">1.7M visualizações</div>
+              <div class="play">
+               <a href="http://pfsv.io:80/live/7788689/2726/252.m3u8"> <img src="https://img.icons8.com/material-outlined/48/000000/circled-play.png"/></a>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <img src="./IMG_12022022_173255_(900_x_900_pixel).jpg" alt="" class="avatar">
+              <h3 class="card-title">Fox Esport 2<br> FHD</h3>
+            </div>
+
+          </div>
+
+
+  <div class="live-card">
+
+            <div class="card-head">
+              <img src="./IMG_12022022_173409_(1024_x_698_pixel).png" alt="" class="card-img">
+              <div class="live-badge">LIVE</div>
+              <div class="total-viewers">1.7M visualizações</div>
+              <div class="play">
+               <a href="http://pfsv.io:80/live/7788689/2726/49.m3u8"> <img src="https://img.icons8.com/material-outlined/48/000000/circled-play.png"/></a>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <img src="./IMG_12022022_173419_(900_x_900_pixel).png" alt="" class="avatar">
+              <h3 class="card-title">Tv Gazeta<br> FHD</h3>
+            </div>
+
+          </div>
+
+
+  <div class="live-card">
+
+            <div class="card-head">
+              <img src="./IMG_12022022_173611_(1024_x_698_pixel).png" alt="" class="card-img">
+              <div class="live-badge">LIVE</div>
+              <div class="total-viewers">1.7M visualizações</div>
+              <div class="play">
+               <a href="http://pfsv.io:80/live/7788689/2726/512.m3u8"><img src="https://img.icons8.com/material-outlined/48/000000/circled-play.png"/></a>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <img src="./IMG_12022022_173618_(900_x_900_pixel).png" alt="" class="avatar">
+              <h3 class="card-title">Globo News<br> FHD</h3>
+            </div>
+
+          </div>
+
+
+  <div class="live-card">
+
+            <div class="card-head">
+              <img src="./IMG_12022022_173644_(1024_x_698_pixel).jpg" alt="" class="card-img">
+              <div class="live-badge">LIVE</div>
+              <div class="total-viewers">1.7M visualizações</div>
+              <div class="play">
+               <a href="http://pfsv.io:80/live/7788689/2726/354.m3u8"><img src="https://img.icons8.com/material-outlined/48/000000/circled-play.png"/></a>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <img src="./IMG_12022022_173657_(900_x_900_pixel).jpg" alt="" class="avatar">
+              <h3 class="card-title">Globo SP<br> FHD</h3>
+            </div>
+
+          </div>
+
+
+  <div class="live-card">
+
+            <div class="card-head">
+              <img src="./IMG_12022022_175414_(1024_x_698_pixel).jpg" alt="" class="card-img">
+              <div class="live-badge">LIVE</div>
+              <div class="total-viewers">1.7M visualizações</div>
+              <div class="play">
+                <a href="http://pfsv.io:80/live/7788689/2726/102.m3u8"><img src="https://img.icons8.com/material-outlined/48/000000/circled-play.png"/></a>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <img src="./IMG_12022022_175407_(900_x_900_pixel).jpg" alt="" class="avatar">
+              <h3 class="card-title">GNT<br> FHD</h3>
+            </div>
+
+          </div>
+
+
+  <div class="live-card">
+
+            <div class="card-head">
+              <img src="./IMG_12022022_175424_(1024_x_698_pixel).jpg" alt="" class="card-img">
+              <div class="live-badge">LIVE</div>
+              <div class="total-viewers">1.7M visualizações</div>
+              <div class="play">
+              <a href="http://pfsv.io:80/live/7788689/2726/468.m3u8">  <img src="https://img.icons8.com/material-outlined/48/000000/circled-play.png"/></a>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <img src="./IMG_12022022_175434_(900_x_900_pixel).png" alt="" class="avatar">
+              <h3 class="card-title">HBO Extreme <br> FHD</h3>
+            </div>
+
+          </div>
+
+
+  <div class="live-card">
+
+            <div class="card-head">
+              <img src="./IMG_12022022_175555_(1024_x_698_pixel).png" alt="" class="card-img">
+              <div class="live-badge">LIVE</div>
+              <div class="total-viewers">1.7M visualizações</div>
+              <div class="play">
+               <a href="http://pfsv.io:80/live/7788689/2726/471.m3u8"> <img src="https://img.icons8.com/material-outlined/48/000000/circled-play.png"/></a>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <img src="./HBO-Logo-square.jpg" alt="" class="avatar">
+              <h3 class="card-title">HBO<br> FHD</h3>
+            </div>
+
+          </div>
+
+
+  <div class="live-card">
+
+            <div class="card-head">
+              <img src="./IMG_12022022_175615_(1024_x_698_pixel).jpg" alt="" class="card-img">
+              <div class="live-badge">LIVE</div>
+              <div class="total-viewers">1.7M visualizações</div>
+              <div class="play">
+                <a href="http://pfsv.io:80/live/7788689/2726/281.m3u8"><img src="https://img.icons8.com/material-outlined/48/000000/circled-play.png"/></a>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <img src="./IMG_12022022_175629_(900_x_900_pixel).jpg" alt="" class="avatar">
+              <h3 class="card-title">Megapix<br> FHD</h3>
+            </div>
+
+          </div>
+
+
+  <div class="live-card">
+
+            <div class="card-head">
+              <img src="./IMG_12022022_182259_(1045_x_698_pixel).jpg" alt="" class="card-img">
+              <div class="live-badge">LIVE</div>
+              <div class="total-viewers">1.7M visualizações</div>
+              <div class="play">
+                <a href="http://pfsv.io:80/live/7788689/2726/3.m3u8"><img src="https://img.icons8.com/material-outlined/48/000000/circled-play.png"/></a>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <img src="./IMG_12022022_182316_(900_x_900_pixel).png" alt="" class="avatar">
+              <h3 class="card-title">MultiShow<br> FHD</h3>
+            </div>
+
+          </div>
+
+
+  <div class="live-card">
+
+            <div class="card-head">
+              <img src="./IMG_12022022_182128_(1045_x_698_pixel).png" alt="" class="card-img">
+              <div class="live-badge">LIVE</div>
+              <div class="total-viewers">1.7M visualizações</div>
+              <div class="play">
+                <a href="http://pfsv.io:80/live/7788689/2726/176.m3u8"><img src="https://img.icons8.com/material-outlined/48/000000/circled-play.png"/></a>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <img src="./IMG_12022022_182138_(900_x_900_pixel).png" alt="" class="avatar">
+              <h3 class="card-title">National Geographic<br> FHD</h3>
+            </div>
+
+          </div>
+
+
+  <div class="live-card">
+
+            <div class="card-head">
+              <img src="./IMG_12022022_181942_(1045_x_698_pixel).png" alt="" class="card-img">
+              <div class="live-badge">LIVE</div>
+              <div class="total-viewers">1.7M visualizações</div>
+              <div class="play">
+              <a href="http://pfsv.io:80/live/7788689/2726/524.m3u8"><img src="https://img.icons8.com/material-outlined/48/000000/circled-play.png"/></a>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <img src="./IMG_12022022_181951_(900_x_900_pixel).png" alt="" class="avatar">
+              <h3 class="card-title">Premiere Club<br> FHD</h3>
+            </div>
+
+          </div>
+
+
+  <div class="live-card">
+
+            <div class="card-head">
+              <img src="./IMG_12022022_181841_(1045_x_698_pixel).jpg" alt="" class="card-img">
+              <div class="live-badge">LIVE</div>
+              <div class="total-viewers">1.7M visualizações</div>
+              <div class="play">
+               <a href="http://pfsv.io:80/live/7788689/2726/45.m3u8"> <img src="https://img.icons8.com/material-outlined/48/000000/circled-play.png"/></a>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <img src="./IMG_12022022_181846_(900_x_900_pixel).jpg" alt="" class="avatar">
+              <h3 class="card-title">RecordTV SP<br> FHD</h3>
+            </div>
+
+          </div>
+
+
+  <div class="live-card">
+
+            <div class="card-head">
+              <img src="./IMG_12022022_181739_(1045_x_698_pixel).jpg" alt="" class="card-img">
+              <div class="live-badge">LIVE</div>
+              <div class="total-viewers">1.7M visualizações</div>
+              <div class="play">
+               <a href="http://pfsv.io:80/live/7788689/2726/511.m3u8"><img src="https://img.icons8.com/material-outlined/48/000000/circled-play.png"/></a>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <img src="./IMG_12022022_181739_(1045_x_698_pixel).jpg" alt="" class="avatar">
+              <h3 class="card-title">RecordTV News<br> FHD</h3>
+            </div>
+
+          </div>
+
+
+  <div class="live-card">
+
+            <div class="card-head">
+              <img src="./IMG_12022022_181626_(1050_x_698_pixel).jpg" alt="" class="card-img">
+              <div class="live-badge">LIVE</div>
+              <div class="total-viewers">1.7M visualizações</div>
+              <div class="play">
+               <a href="http://pfsv.io:80/live/7788689/2726/46.m3u8"> <img src="https://img.icons8.com/material-outlined/48/000000/circled-play.png"/></a>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <img src="./IMG_12022022_181635_(900_x_900_pixel).jpg" alt="" class="avatar">
+              <h3 class="card-title">SBT SP<br> FHD</h3>
+            </div>
+
+          </div>
+
+
+  <div class="live-card">
+
+            <div class="card-head">
+              <img src="./IMG_12022022_181449_(1024_x_698_pixel).png" alt="" class="card-img">
+              <div class="live-badge">LIVE</div>
+              <div class="total-viewers">1.7M visualizações</div>
+              <div class="play">
+                <a href="http://pfsv.io:80/live/7788689/2726/282.m3u8"><img src="https://img.icons8.com/material-outlined/48/000000/circled-play.png"/></a>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <img src="./IMG_12022022_181459_(900_x_900_pixel).jpg" alt="" class="avatar">
+              <h3 class="card-title">Space<br> FHD</h3>
+            </div>
+
+          </div>
+
+
+  <div class="live-card">
+
+            <div class="card-head">
+              <img src="./sporttv.png" alt="" class="card-img">
+              <div class="live-badge">LIVE</div>
+              <div class="total-viewers">1.7M visualizações</div>
+              <div class="play">
+                 <a href="http://pfsv.io:80/live/7788689/2726/555.m3u8"><img src="https://img.icons8.com/material-outlined/48/000000/circled-play.png"/></a>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <img src="./IMG_11022022_164910_(900_x_900_pixel).png" alt="" class="avatar">
+              <h3 class="card-title">SporTV<br> FHD</h3>
+            </div>
+
+          </div>
+
+  <div class="live-card">
+
+            <div class="card-head">
+              <img src="./IMG_12022022_182833_(1024_x_698_pixel).jpg" alt="" class="card-img">
+              <div class="live-badge">LIVE</div>
+              <div class="total-viewers">1.7M visualizações</div>
+              <div class="play">
+                <a href="http://pfsv.io:80/live/7788689/2726/292.m3u8"><img src="https://img.icons8.com/material-outlined/48/000000/circled-play.png"/></a>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <img src="./IMG_12022022_182845_(900_x_900_pixel).jpg" alt="" class="avatar">
+              <h3 class="card-title">Star Channel<br> FHD</h3>
+            </div>
+
+          </div>
+
+  <div class="live-card">
+
+            <div class="card-head">
+              <img src="./IMG_12022022_184542_(1045_x_698_pixel).png" alt="" class="card-img">
+              <div class="live-badge">LIVE</div>
+              <div class="total-viewers">1.7M visualizações</div>
+              <div class="play">
+                <a href="http://pfsv.io:80/live/7788689/2726/562.m3u8"><img src="https://img.icons8.com/material-outlined/48/000000/circled-play.png"/></a>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <img src="./IMG_12022022_184536_(900_x_900_pixel).png" alt="" class="avatar">
+              <h3 class="card-title">Telecine Action<br> FHD</h3>
+            </div>
+
+          </div>
+
+  <div class="live-card">
+
+            <div class="card-head">
+              <img src="./IMG_12022022_184436_(1045_x_698_pixel).jpg" alt="" class="card-img">
+              <div class="live-badge">LIVE</div>
+              <div class="total-viewers">1.7M visualizações</div>
+              <div class="play">
+                <a href="http://pfsv.io:80/live/7788689/2726/564.m3u8"><img src="https://img.icons8.com/material-outlined/48/000000/circled-play.png"/></a>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <img src="./IMG_12022022_184442_(900_x_900_pixel).jpg" alt="" class="avatar">
+              <h3 class="card-title">Telecine Pipoca<br> FHD</h3>
+            </div>
+
+          </div>
+
+  <div class="live-card">
+
+            <div class="card-head">
+              <img src="./IMG_12022022_184344_(1045_x_698_pixel).jpg" alt="" class="card-img">
+              <div class="live-badge">LIVE</div>
+              <div class="total-viewers">1.7M visualizações</div>
+              <div class="play">
+                <a href="http://pfsv.io:80/live/7788689/2726/573.m3u8"><img src="https://img.icons8.com/material-outlined/48/000000/circled-play.png"/></a>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <img src="./IMG_12022022_184329_(900_x_900_pixel).jpg" alt="" class="avatar">
+              <h3 class="card-title">Telecine Premium<br> FHD</h3>
+            </div>
+
+          </div>
+
+  <div class="live-card">
+
+            <div class="card-head">
+              <img src="./IMG_12022022_184048_(1045_x_698_pixel).png" alt="" class="card-img">
+              <div class="live-badge">LIVE</div>
+              <div class="total-viewers">1.7M visualizações</div>
+              <div class="play">
+                <a href="http://pfsv.io:80/live/7788689/2726/316.m3u8"><img src="https://img.icons8.com/material-outlined/48/000000/circled-play.png"/></a>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <img src="./IMG_12022022_184057_(900_x_900_pixel).png" alt="" class="avatar">
+              <h3 class="card-title">TNT Series<br> FHD</h3>
+            </div>
+
+          </div>
+
+  <div class="live-card">
+
+            <div class="card-head">
+              <img src="./IMG_12022022_183955_(1045_x_698_pixel).png" alt="" class="card-img">
+              <div class="live-badge">LIVE</div>
+              <div class="total-viewers">1.7M visualizações</div>
+              <div class="play">
+                <a href="http://pfsv.io:80/live/7788689/2726/315.m3u8"><img src="https://img.icons8.com/material-outlined/48/000000/circled-play.png"/></a>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <img src="./IMG_12022022_183947_(900_x_900_pixel).png" alt="" class="avatar">
+              <h3 class="card-title">TNT<br> FHD</h3>
+            </div>
+
+          </div>
+
+  <div class="live-card">
+
+            <div class="card-head">
+              <img src="./IMG_12022022_183837_(1045_x_698_pixel).jpg" alt="" class="card-img">
+              <div class="live-badge">LIVE</div>
+              <div class="total-viewers">1.7M visualizações</div>
+              <div class="play">
+                <a href="http://pfsv.io:80/live/7788689/2726/317.m3u8"><img src="https://img.icons8.com/material-outlined/48/000000/circled-play.png"/></a>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <img src="./IMG_12022022_183847_(900_x_900_pixel).png" alt="" class="avatar">
+              <h3 class="card-title">Universal Channel<br> FHD</h3>
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+    </main>
+
+
+<!-- Final da página -->
+
+
+    <footer>
+
+      <div class="footer-content">
+
+        <div class="footer-brand">
+          <img src="./images/1646360783025.png" alt="" class="footer-logo">
+          <p class="slogan">Filmes/Séries & TV Ao vivo!</p>
+
+
+          <div class="social-link">
+
+            <a href="#">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+            <a href="#">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            <a href="#">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+            <a href="#">
+              <ion-icon name="logo-tiktok"></ion-icon>
+            </a>
+            <a href="#">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+
+          </div>
+        </div>
+
+
+        <div class="footer-links">
+          <ul>
+
+            <h4 class="link-heading">Tv Multiversal</h4>
+
+            <li class="link-item"><a href="#">Para usuário</a></li>
+            <li class="link-item"><a href="#">Sobre</a></li>
+            <li class="link-item"><a href="#">Contato</a></li>
+
+          </ul>
+          
+          <ul>
+   
+            <h4 class="link-heading">Conteúdo</h4>
+
+            <li class="link-item"><a href="#live">TV ao Vivo!</a></li>
+            <li class="link-item"><a href="#">Filmes</a></li>
+            <li class="link-item"><a href="#">Infantil</a></li>
+            <li class="link-item"><a href="#category">Cartegorias</a></li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+      <div class="footer-copyright">
+
+        <div class="copyright">
+          <p>&copy; copyright 2022 Tv Multiversal</p>
+        </div>
+
+        <div class="wrapper">
+          <a href="#">Polícia e Privacidade</a>
+          <a href="#">Termos e Condições</a>
+        </div>
+
+      </div>
+
+    </footer>
+
+  </div>
+  
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://unpkg.com/sweetalert2@7.12.15/dist/sweetalert2.all.js"></script>
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./js/main.js"></script>
+  
+</body>
+
+</html>
