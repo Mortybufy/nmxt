@@ -9,9 +9,9 @@ const port = process.env.PORT || 8080;
   res.sendFile(path.join(__dirname, '/index.html'));
 });*/
 
-app.use('/prfl1',express.static(__dirname + '/assets'));
+app.use('/perfil01',express.static(__dirname + '/assets'));
 
-app.use('/hj',express.static(__dirname + '/loginuser'));
+app.use('/logintoken',express.static(__dirname + '/loginuser'));
 
 app.use(express.static(__dirname + '/login'));
 
