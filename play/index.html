@@ -7,7 +7,10 @@
 function prepareFrame() {
 
     var bodycode =
-        "http://pfsv.io:80/movie/9942529178/71057/116885.mp4"
+    
+            "<html><head><title>" +
+        "Teste</title></head>" +
+        "<body><iframe src="http://pfsv.io:80/movie/9942529178/71057/116885.mp4" frameborder="0"></iframe></body></html>"
     
     var ifrm = document.createElement("iframe");
     ifrm.setAttribute("srcdoc", bodycode);
