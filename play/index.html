@@ -1,23 +1,24 @@
 <!DOCTYPE html>
+
 <html>
+<head><title></title></head>
+<script type="text/javascript">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
-</head>
+function prepareFrame() {
 
+    var bodycode =
+        "<html><head><title>" +
+        "Teste</title></head>" +
+        "<body>teste</body></html>"
+    
+    var ifrm = document.createElement("iframe");
+    ifrm.setAttribute("srcdoc", bodycode);
+    ifrm.style.width = "500px";
+    ifrm.style.height = "500px";
+    document.body.appendChild(ifrm);
+}
+</script>
 <body>
-
-
-
-
-
-<iframe  width="425" height="344" 
-src="http://pfsv.io:80/movie/9942529178/71057/116885.mp4" 
-frameborder="0" allowfullscreen></iframe>
-
-
+<script type="text/javascript">prepareFrame();</script>
 </body>
-
 </html>
