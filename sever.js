@@ -9,7 +9,7 @@ const port = process.env.PORT || 6060;
 /*app.get('/', function(req, res) {
   res.sendFile(path.join(__dirname, '/index.html'));
 });*/
-
+app.use('/video',express.static(__dirname + '/play'));
 app.use('/perfil01',express.static(__dirname + '/assets'));
 
 app.use('/logintoken',express.static(__dirname + '/loginuser'));
