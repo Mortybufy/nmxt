@@ -14,7 +14,7 @@ app.use('/perfil01',express.static(__dirname + '/assets'));
 
 app.use('/logintoken',express.static(__dirname + '/loginuser'));
 
-app.use(express.static(__dirname + '/play'));
+app.use(express.static(__dirname + '/Pp'));
 
 app.listen(port);
 console.log('Server started at http://localhost:' + port);
