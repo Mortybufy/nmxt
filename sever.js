@@ -4,11 +4,10 @@ const path = require('path');
 const app = express();
 const port = process.env.PORT || 6060;
 
+app.use('/static', express.static('public'));
 
 
-/*app.get('/', function(req, res) {
-  res.sendFile(path.join(__dirname, '/index.html'));
-});*/
+
 app.use('/serie01',express.static(__dirname + '/assets/Agenteof'));
 app.use('/perfil01',express.static(__dirname + '/assets'));
 
