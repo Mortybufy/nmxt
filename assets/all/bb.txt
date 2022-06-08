@@ -1,0 +1,25 @@
+          <div class="movie-card">
+            <div class="card-head">
+              <img src="" alt="" class="card-img">
+              <div class="card-overlay">
+                <div class="bookmark">
+                  <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
+                <div class="rating">
+               <ion-icon name="star-outline"></ion-icon>
+                  <span>7.4</span>
+                </div>
+                <div class="play">
+                  <a href=""><ion-icon name="play-circle-outline"></ion-icon></a>
+                </div>
+                </div>
+            </div><div class="card-body">
+              <h3 class="card-title"></h3>
+
+              <div class="card-info">
+                <span class="genre">7 Temporadas</span>
+                <span class="year">2013</span>
+              </div>
+            </div>
+            </div>
+          
