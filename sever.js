@@ -7,7 +7,7 @@ const port = process.env.PORT || 6060;
 app.use('/static', express.static('public'));
 
 
-
+app.use('/all',express.static(__dirname + '/assets/all'));
 app.use('/serie01',express.static(__dirname + '/assets/Agenteof'));
 app.use('/perfil01',express.static(__dirname + '/assets'));
 
