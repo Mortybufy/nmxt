@@ -9,6 +9,7 @@ app.use('/static', express.static('public'));
 
 app.use('/all',express.static(__dirname + '/assets/all'));
 app.use('/serie01',express.static(__dirname + '/assets/Agenteof'));
+app.use('/serie02',express.static(__dirname + '/assets/the'));
 app.use('/perfil01',express.static(__dirname + '/assets'));
 
 app.use('/logintoken',express.static(__dirname + '/loginuser'));
