@@ -14,10 +14,8 @@ app.use('/all',express.static(__dirname + '/assets/all'));
 
 
 app.use('/got',express.static(__dirname + '/assets/got'));
-server.get("/temp1", (req, res)=>{
-  res.sendFile("/app/assets/got/temps1/temp1.html")
-})
-app.use('/tem1',express.static(__dirname + '/assets/got/temps1'));
+
+app.use('/temp1',express.static("/app/assets/got/temps1/temp1.html"));
 app.use('/temp2',express.static(__dirname + '/assets/got/temps2'));
 app.use('/temp3',express.static(__dirname + '/assets/got/temps3'));
 app.use('/temp4',express.static(__dirname + '/assets/got/temps4'));
