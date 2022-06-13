@@ -15,7 +15,7 @@ app.use('/all',express.static(__dirname + '/assets/all'));
 
 app.use('/got',express.static(__dirname + '/assets/got'));
 
-app.use('/temp1',express.static(__dirname + '/gotss/temps1'  ));
+app.use('/temp1',express.static(__dirname + '/gotss/temps1/temp1.html'  ));
 app.use('/temp2',express.static(__dirname + '/gotss/temps2'));
 app.use('/temp3',express.static(__dirname + '/gotss/temps3'));
 app.use('/temp4',express.static(__dirname + '/gotss/temps4'));
